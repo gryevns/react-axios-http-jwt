@@ -2,7 +2,7 @@ import { AxiosRequestConfig } from 'axios'
 import { useMemo, useState } from 'react'
 import { Client, Authenticated } from 'axios-http-jwt'
 
-const useClient = (
+export const useClient = (
     config: AxiosRequestConfig,
     onLogin: (data: any) => Promise<string>,
     onLogout: () => Promise<void>,
