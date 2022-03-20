@@ -1,0 +1,65 @@
+{
+    "name": "react-axios-http-jwt",
+    "version": "1.0.0",
+    "description": "React hook for axios-http-jwt",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gryevns/react-axios-http-jwt.git"
+    },
+    "homepage": "https://github.com/gryevns/react-axios-http-jwt",
+    "author": "Gary Evans",
+    "license": "MIT",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.15.0",
+        "@typescript-eslint/parser": "^5.15.0",
+        "auto": "^10.34.2",
+        "eslint": "^8.11.0",
+        "prettier": "^2.6.0",
+        "typescript": "^4.6.2"
+    },
+    "peerDependencies": {
+        "axios": "^0.26.1",
+        "react": "^17.0.2",
+        "@types/react": "^17.0.40"
+    },
+    "dependencies": {
+        "axios-http-jwt": "^1.0.0"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc -w",
+        "test": "jest",
+        "prepack": "tsc"
+    },
+    "keywords": [
+        "axios",
+        "token",
+        "jwt",
+        "http",
+        "refresh",
+        "authentication",
+        "authorization",
+        "header",
+        "typescript",
+        "ts",
+        "react"
+    ],
+    "auto": {
+        "plugins": [
+            "npm",
+            "released"
+        ],
+        "onlyPublishWithReleaseLabel": true
+    },
+    "bugs": {
+        "url": "https://github.com/gryevns/react-axios-http-jwt/issues"
+    },
+    "directories": {
+        "test": "tests"
+    }
+}
